@@ -1,1 +1,3 @@
 # TextEditor
+
+C++ text editor that takes in a file as its only command line argument. The max number of lines in the file is 30 lines, and each line can be up to 40 characters long. If any one of these two conditions aren't met, the program will prompt an error message and terminate. The program prompts the user for a command until the user enters 'q' to quit. If the user hasn't saved the file, then the editor will ask the user if they want to quit without saving. The controls to move the cursor are WASD. (up, left, down, and right respectively.) The user can enter an integer after a WASD control to move the cursor an integer amount of spaces. This texteditor allows for scrolling of the window when needed, and allows for moving the cursor horiontally. 
